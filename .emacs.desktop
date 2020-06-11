@@ -1,0 +1,91 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Thu Jun 11 07:56:28 2020
+;; Desktop file format version 208
+;; Emacs version 25.1.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (24290 7148 516429 34000) (desktop . "208") "pi@weatherbox" nil nil ((((tty-type . "xterm-256color") (tty . "/dev/tty") (display-type . color) (background-mode . light) (foreground-color . "#ffffff") (cursor-color . "#c6c6c6") (background-color . "unspecified-bg") (font . "tty") (height . 35) (width . 113) (modeline . t) (unsplittable) (menu-bar-lines . 1) (frameset--id . "629C-5D14-EF25-5581") (frameset--mini t) (minibuffer . t)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 2) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 4) (min-pixel-width . 10) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 2) (min-pixel-height-safe . 1) (min-pixel-width-safe . 2)) leaf (pixel-width . 113) (pixel-height . 34) (total-width . 113) (total-height . 34) (normal-height . 1.0) (normal-width . 1.0) (buffer "darksky.py" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 5952) (start . 5122))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("handler" "forecast_cache/" "forecast_cachce" "stash" "print" "isoformat" "print" "fromiso" "fromisoformat" "o" "print" "	o" "fatal_errors" "fatal_error_ex" "fatal_error_exception" "fatal_error_ex"))
+(setq regexp-search-ring '("print"))
+(setq register-alist nil)
+(setq file-name-history '("/opt/weatherbox/debug.sh" "~/.bashrc" "/opt/weatherbox/~.bashrc" "/opt/weatherbox/darksky.py" "/opt/weatherbox/colors.py" "/opt/weatherbox/" "~/.emacs.d/init.el" "/opt/weatherbox/Logger.py" "/opt/weatherbox/colors.py" "/opt/weatherbox/main.py" "/opt/weatherbox/tz.py" "/opt/weatherbox/colors.py" "/opt/weatherbox/main.py" "/opt/weatherbox/" "/opt/weatherbox/darksky.py" "/opt/weatherbox/" "/opt/weatherbox/main.py" "/opt/weatherbox/update.sh" "/opt/weatherbox/start.sh" "/opt/weatherbox/update.sh" "/opt/weatherbox/start.sh" "/opt/weatherbox/remote-update.sh" "/opt/weatherbox/climacell-example.json" "/opt/weatherbox/main.py" "/opt/weatherbox/colors.py" "/opt/weatherbox/omw_test.py" "/opt/weatherbox/owm-example.json" "/opt/weatherbox/main.py" "/opt/weatherbox/darksky.py" "/opt/weatherbox/open_weather_map.py" "/opt/weatherbox/" "~/.emacs.d/init.el" "/opt/weatherbox/" "/opt/weatherbox/update.sh" "~/.bashrc" "/opt/weatherbox/update.sh" "/opt/weatherbox/main.py" "~/.bashrc" "/opt/weatherbox/main.py" "/opt/weatherbox/update.sh" "/opt/weatherbox/main.py" "/opt/weatherbox/debug.sh" "/opt/weatherbox/main.py" "/opt/weatherbox/" "/opt/weatherbox/wxbx.service" "/opt/weatherbox/start.sh" "~/.bashrc" "/opt/weatherbox/start.sh" "/opt/weatherbox/debug.sh" "/opt/weatherbox/main.py" "~/.bashrc" "/opt/weatherbox/" "~/" "~/.profile" "/opt/weatherbox/.profile" "~/.bashrc" "/opt/weatherbox/wxbx" "~/.emacs.d/init.el" "/opt/weatherbox/main.py" "/opt/weatherbox/" "~/.emacs.d/init.el" "~/.emacs.d/" "~/.emacs.d/init.el" "/opt/weatherbox/main.py" "~/.emacs.d/" "/opt/weatherbox/start.sh" "~/.emacs.d/" "/opt/weatherbox/start.sh" "/opt/weatherbox/main.py" "~/.emacs.d/" "/opt/weatherbox/main.py"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/opt/weatherbox/main.py"
+  "main.py"
+  'python-mode
+  '(auto-revert-mode)
+  782
+  '(18677 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (12928 2165 2164 12024 12068 1109 1015 1073 1073 1073 1031 3105 1041 1015 15859 15859))))
+
+(desktop-create-buffer 208
+  "/opt/weatherbox/debug.sh"
+  "debug.sh"
+  'sh-mode
+  nil
+  310
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/pi/.bashrc"
+  ".bashrc"
+  'sh-mode
+  nil
+  3751
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/opt/weatherbox/darksky.py"
+  "darksky.py"
+  'python-mode
+  nil
+  5952
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/opt/weatherbox/Logger.py"
+  "Logger.py"
+  'python-mode
+  '(auto-revert-mode)
+  262
+  '(55 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (27 27 27 27 27 27))))
+
+(desktop-create-buffer 208
+  "/opt/weatherbox/colors.py"
+  "colors.py"
+  'python-mode
+  '(auto-revert-mode)
+  261
+  '(183 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
