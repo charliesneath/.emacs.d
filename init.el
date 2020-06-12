@@ -4,6 +4,9 @@
 ;; just comment it out by adding a semicolon to the start of the line.
 ;; You may delete these explanatory comments.
 (package-initialize)
+(require 'package)
+(add-to-list 'package-archives '("gnu" . "https://elpa.gnu.org/packages/"))
+(add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
 
 (desktop-save-mode 1)
 
@@ -18,15 +21,12 @@
 
 (display-time-mode 1)
 (winner-mode 1)
-(company-mode 1)
 
 ;; Unbind Pesky Sleep Button
 ;; source: https://www.fettesps.com/emacs-disable-suspend-button/
 (global-unset-key [(control z)])
 (global-unset-key [(control x)(control z)])
 
-(require 'package)
-(add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
