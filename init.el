@@ -9,8 +9,12 @@
 (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
 
 (desktop-save-mode 1)
-
 (global-set-key (kbd "C-x g") 'magit-status)
+(global-set-key (kbd "C-x n") 'next-buffer)
+(global-set-key (kbd "C-x p") 'previous-buffer)
+
+;; enable company-mode everywhere
+(add-hook 'after-init-hook 'global-company-mode)
 
 ;; Use M-arrow to change current window
 (windmove-default-keybindings 'M)
