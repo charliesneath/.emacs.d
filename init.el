@@ -41,6 +41,9 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(package-selected-packages
+   (quote
+    (tango-plus-theme leuven-theme solarized-theme markdown-mode company list-packages-ext atom-one-dark-theme atom-dark-theme monokai-theme dracula-theme magit transient-dwim gnu-elpa-keyring-update with-editor transient dash)))
  '(ansi-color-faces-vector
    [default default default italic underline success warning error])
  '(ansi-color-names-vector
@@ -85,17 +88,12 @@
  '(nrepl-message-colors
    (quote
     ("#dc322f" "#cb4b16" "#b58900" "#5b7300" "#b3c34d" "#0061a8" "#2aa198" "#d33682" "#6c71c4")))
- '(package-selected-packages
-   (quote
-    (tango-plus-theme leuven-theme solarized-theme markdown-mode company list-packages-ext atom-one-dark-theme atom-dark-theme monokai-theme dracula-theme magit transient-dwim gnu-elpa-keyring-update with-editor transient dash)))
  '(pos-tip-background-color "#FFFACE")
  '(pos-tip-foreground-color "#272822")
  '(proced-auto-update-flag t)
  '(proced-filter (quote root))
  '(scroll-bar-mode nil)
  '(smartrep-mode-line-active-bg (solarized-color-blend "#859900" "#eee8d5" 0.2))
- '(term-default-bg-color "#fdf6e3")
- '(term-default-fg-color "#657b83")
  '(tetris-x-colors
    [[229 192 123]
     [97 175 239]
